@@ -3,42 +3,44 @@
 <head>
     <title>Kristina's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="http: //cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body> 
-    <nav role="navigation">
-        <div class="hamburger">&#9776;</div>
+    <nav class="page-nav">
+        <label class="hamburger" for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
         <ul class="menu">
-                <li>Menu1</li>
-                <li>Menu2</li>
-                <li>Menu3</li>
+            <li><a href="https://twitter.com/krisss84862466" target="_blank">Twitter</a></li>
+            <li><a href="https://github.com/disiting" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/kristina-diatchenko-59195159/" target="_blank">LinkedIn</a></li>
         </ul>
     </nav>
     <header>
-        <div class="avatar-sm">Avatar</div>
-        <h1>My Name</h1>
+        <img class="avatar-sm" src="MyAvatar.png" alt="Kristina's Avatar">
+        <h1>Kristina Diatchenko</h1>
     </header> 
     <main class="main">    
-        <section class="bio">
-            <h2 class="headline">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-            <div class="avatar-lg">Avatar</div>
-            <p class="biography">In eleifend leo eu lectus imperdiet, ac ullamcorper nisl interdum. Quisque tincidunt arcu lobortis, vehicula ex eu, feugiat nulla. Donec mollis velit dolor, id commodo turpis hendrerit sit amet. Fusce eget ligula vel elit semper tincidunt. Duis sagittis pellentesque ante sit amet fermentum. Curabitur sodales faucibus sem at porta. Aliquam quis libero diam.</p>         
+        <section class="bio">    
+            <h2 class="headline">A web developer in love with JavaScript; formerly, a CPA with years of experience in  corporate accounting.</h2>
+            <img class="avatar-lg" src="MyAvatar.png" alt="Kristina's Avatar">
+            <p class="biography">I have always loved solving problems. When I worked as an accountant, I geeked out on creating Excel templates that would save everyone time. Lots of time! To do that, I had to research, Google and peruse StackOverflow for days and weeks. And one day, after doing this for years, I thought, "Heck, that's what I should do for a living!" So, here I am - a bootcamp student conquering JavaScript, SQL, Python, and many more to come. My greatest interests are foreign languages, reading, and cooking to the sound of tech podcasts.</p>         
         </section>        
         <section class="link-group">
             <ul>
-                <li class="projects-link">
-                    Projects
+                <li><a class="myprojects" href="#">Projects</a>
                 </li>
-                <li class="email-link">
-                    email me
+                <li><a class="email-link" href="mailto:disiting@gmail.com" target="_blank">email me</a>
                 </li>
             </ul>
         </section>
         <section class="projects">
-            <h3>Project 1</h3>
-            <p class="project1"></p>
+            <h3>Montessori Quiz App / HTML, CSS, JavaScript</h3>
+            <p class="project1">This was my first web app project. I built a <a href="https://disiting.github.io/Montessori-Quiz/" target="_blank">quiz app</a> that tests knowledge of the Montessori education system. Check out the <a href="https://github.com/disiting/Montessori-Quiz" target="_blank">GitHub repo</a>.</p>
+            <img class="project1-screenshot" src="Quiz App.PNG" alt="Screenshot of the quiz app project">
         </section>
     </main>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
