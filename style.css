@@ -4,7 +4,7 @@
 
   body {
     font-family: "CircularStd book", sans-serif; 
-    font-size: 18px;
+    font-size: 16px;
     color: #444;
     line-height: 1.5;
     margin: 3% 7%;
@@ -37,7 +37,7 @@
     color: #bf6cff;
   }
 
-  .menu a:visited {
+  .menu {
     color: inherit;
   }
 
@@ -150,10 +150,11 @@
 
     .page-nav ul li {
       display: block;
-      width: 25%;
+      width: 30%;
       border: 2px solid #bf6cff;
       padding: 5px;
       border-radius: 3px;
+      text-align: center;
     }
 
     .page-nav>ul>li:hover {
