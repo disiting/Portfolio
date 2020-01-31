@@ -42,6 +42,7 @@
   }
   
   .hamburger {
+    position: relative;
     text-align: right;
     font-size: 35px;
     float: right;
@@ -85,7 +86,7 @@
 
   .page-nav ul li {
     display: block;
-    width: 30%;
+    width: 33%;
     border: 2px solid #bf6cff;
     padding: 5px;
     border-radius: 3px;
