@@ -122,7 +122,7 @@
     background: linear-gradient(-135deg,#22d4ab 0%,#00c597 100%);
   }
 
-  .project1-screenshot {
+  .project1-screenshot, .project2-screenshot {
     max-width: 100%;
   }
 
